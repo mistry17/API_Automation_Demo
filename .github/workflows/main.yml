@@ -32,8 +32,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest APIAutomation/tests/Test_Api.py
-
+          pytest APIAutomation/tests/
       - name: Print working directory and files
         run: |
           pwd
