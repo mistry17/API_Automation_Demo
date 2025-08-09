@@ -32,7 +32,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -s -v tests/
+          pytest -s -v test/
 
       - name: Print working directory and files
         run: |
